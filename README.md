@@ -1,5 +1,5 @@
 
-This project and code belongs to ##Brighton Ngema.
+This project and code belongs to <b>Brighton Ngema.</b>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
