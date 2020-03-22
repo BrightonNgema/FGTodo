@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h1 {
+  margin: 20px 0 15px 0;  
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+
+.form-inline .form-control {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: #2D2D2D;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
+
+.markasdone{
+  float: right;
+  font-size: 12px;
+  padding:5px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border:none
+}
+
+button.markasdone:hover{
+  color:red;
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav a.active{
+  color:#62DAFB
+}
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+  background-color: #62DAFB;
+  color:#000
+}
+
+button:focus {
+  outline: none !important;
+}
