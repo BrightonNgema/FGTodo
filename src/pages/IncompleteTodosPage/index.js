@@ -51,7 +51,7 @@ export default class IncompleteTodosPage extends Component {
   render() {
     return (
       <div style={{backgroundColor:"#1e1e1e", color:"#61DAFB"}}>
-        <div className="container pt-5 pb-5" style={{ height:'100vh',}}>
+        <div className="container pt-5 pb-5" style={{ minHeight:'100vh',}}>
           <div className="col-md-12 text-center pt-5">
               <h1>Incomplete To Dos</h1>
           </div>
